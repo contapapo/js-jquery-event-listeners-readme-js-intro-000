@@ -7,12 +7,16 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function () {
-    
+
   })
 }
 
 function pressIt() {
-
+  $('#typing').on('keydown',function () {
+    if(key.which === 71){
+      alert('Yo');
+    }
+  })
 }
 
 function submitIt() {
